@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    width: Fixed (1,440px)px;
+    height: Fixed (960px)px;
+    top: -480px;
+    left: -720px;
+    background: var(--color-yellow, #F4D04E);
+
+}
+.card{
+    width: 335px;
+    height: 485px;
+    padding: 20px;
+    margin:  auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background:  #FFFFFF;
+    box-shadow: 8px 8px 0px 0px #000000;
+
+}
+
+.photo{
+    width: 336px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+    
+
+
+}
+
+.text1{
+    width:  60px;
+    height:  29px;
+    padding-left:10px ;
+    padding-right:8px ;
+    padding-top:4px ;
+    padding-bottom:0px ;
+    margin-right: 245px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: var(--color-yellow, #F4D04E);
+    text-align: center;
+    font-family: "Figtree", sans-serif;
+    font-size: 14px ;
+    font-weight: 800;
+    line-height: 21px;
+    text-align: left;
+
+}
+
+.text2{
+    width: 150px;
+    height: 21px;
+    font-family: "Figtree";
+    font-size:14px ;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color:  #111111;
+
+}
+.text3 {
+    width: 336px;
+    height: 36px;
+    font-family: "Figtree";
+    font-size: 24px ;
+    font-weight: 800;
+    line-height: 36px;
+    text-align: left;
+
+
+}
+
+.text4{
+    width: 336px;
+    height: 72px;
+    font-family: "Figtree";
+    font-size:16px ;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color:  #6B6B6B;
+
+
+
+}
+.txt1{
+    width:129px;
+    height:50px;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.icone{
+    width:32px ;
+    height:32px ;
+}
+.description{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 85px;
+    height: 40px;
+    margin: 5px;
+    font-family: "Figtree";
+    font-size:14px ;
+    font-weight: 800;
+    line-height: 21px;
+    text-align: left;
+    justify-content: center;
+
+}
